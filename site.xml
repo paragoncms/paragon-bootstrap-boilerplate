@@ -1,0 +1,11 @@
+<site>
+    <name>Paragon CMS Bootstrap Boilerplate</name>
+    <robots>
+        <user-agent agent="*"/>
+    </robots>
+    <page>
+        <url>/</url>
+        <title>Home</title>        
+        <template>home.html</template>        
+    </page>
+</site>
