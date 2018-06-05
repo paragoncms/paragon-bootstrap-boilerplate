@@ -1,7 +1,8 @@
 <html>
 
 <head>
-    <title>Paragon CMS Bootstrap Boilerplate</title>
+    <title>{{pageTitle}}</title>
+    <!-- Bootstrap v3 -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
@@ -11,6 +12,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <!-- Site custom stylesheet -->
     <link rel="stylesheet" href="resources/css/main.css">
     <!-- FAVICON -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{siteRoot}}/resources/favicon/apple-touch-icon-57x57.png" />
@@ -30,7 +32,7 @@
     <link rel="icon" type="image/png" href="{{siteRoot}}/resources/favicon/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="{{siteRoot}}/resources/favicon/favicon-16x16.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="{{siteRoot}}/resources/favicon/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="Paragon CMS Bootstrap Boilerplate" />
+    <meta name="application-name" content="{{siteName}}" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="{{siteRoot}}/resources/favicon/mstile-144x144.png" />
     <meta name="msapplication-square70x70logo" content="{{siteRoot}}/resources/favicon/mstile-70x70.png" />
@@ -42,13 +44,15 @@
 
 <body>
     <div class="container">
-        <h1>Paragon CMS Boostrap 3 Boilerplate</h1>
+        <h1>Paragon CMS Sample Site</h1>
+        <h2>Bootstrap v3 Boilerplate</h2>
         <hr>
         <div class="row">
             <div id="homepagetext" class="col-md-6">
                 <p>Welcome to the Paragon CMS Bootstrap 3 Boilerplate project.</p>
-                <p>This project represents a very simple example of as static site which can be used to build new sites!</p>
+                <p>This project represents a very simple example of a static site which can be used to build new sites!</p>
                 <p>It includes a favicon and Bootstrap 3 and that's it.</p>
+                <p>The source for this project is publicly available at <a href="https://github.com/paragoncms/paragon-bootstrap-boilerplate">Github</a>. The project can be easily forked to create a new web site project of your own on Paragon CMS.</p>
                 <p>Bootstrap is a great way to make mobile responsive sites.</p>
                 <p>Check out their great <a target="_blank" href="http://getbootstrap.com/docs/3.3/">documentation</a>.</p>
             </div>
