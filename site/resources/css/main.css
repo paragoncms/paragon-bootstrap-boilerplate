@@ -3,5 +3,9 @@ body {
 }
 
 #homepageimage {
-    width: 50%;
+    width: 100%;
+}
+
+#homepagetext {
+    font-size: 1.4em;
 }
