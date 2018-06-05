@@ -5,7 +5,7 @@
     </robots>
     <page>
         <url>/</url>
-        <title>Home</title>        
+        <title>Paragon CMS Bootstrap Boilerplate</title>        
         <template>home.html</template>        
     </page>
 </site>
