@@ -1,0 +1,9 @@
+.component-edit-border {
+    border-color: white; 
+    border: outset; 
+    border-width: 2px;
+}
+
+.component-edit-border:hover {
+    background-color: #28609073;
+}
