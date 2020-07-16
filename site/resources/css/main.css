@@ -9,8 +9,10 @@ body {
 
 #homepageimage {
     width: 100%;
+    padding: 32px;
 }
 
 #homepagetext {
-    font-size: 1.4em;
+    font-size: 1.3em;
+    font-family: sans-serif;
 }
