@@ -5,6 +5,7 @@ body {
 
 #homepageimage {
     width: 75%;    
+    padding-bottom: 24px;
 }
 
 #homepagetext {
